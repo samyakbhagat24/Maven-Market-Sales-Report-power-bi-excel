@@ -20,6 +20,7 @@ _Analyzing retail sales, profit margins, returns, and global regional performanc
 --- 
 <h2><a class="anchor" id="overview"></a>Overview</h2>
 This project provides an end-to-end business intelligence solution for Maven Market, a multi-national retail grocery chain. By transforming raw transactional, product, customer, and regional data into interactive Power BI analytics, the business can monitor month-over-month (MoM) performance targets, assess return rates across product brands, and visualize geographical revenue growth across the USA, Mexico, and Canada.
+
 ---
 <h2><a class="anchor" id="business-problem"></a>Business Problem</h2>
 
