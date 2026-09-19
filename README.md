@@ -1,23 +1,23 @@
-🛒 Maven Market Sales & Performance Dashboard
+ # 🛒 Maven Market Sales & Performance Dashboard
 
-Analyzing retail sales, profit margins, returns, and global regional performance to support executive decision-making and revenue growth strategies using Power BI, DAX, and Data Modeling.
-
----
-📌 Table of Contents
- - <a href="#overview">Overview</a>
- - <a href="#business-problem">Business Problem</a>
- - <a href="#dataset">Dataset</a>
- - <a href="#tools--technologies">Tools & Technologies</a>
- - <a href="#project-structure">Project Structure</a>
- - <a href="#data-cleaning--preparation">Data Cleaning & Preparation</a>
- - <a href="#exploratory-data-analysis-eda">Exploratory Data Analysis (EDA)</a>
- - <a href="#research-questions--key-findings">Research Questions & Key Findings</a>
- - <a href="#dashboard">Dashboard</a>
- - <a href="#how-to-run-this-project">How to Run This Project</a>
- - <a href="#final-recommendations">Final Recommendations</a>
- - <a href="#author--contact">Author & Contact</a>
+_Analyzing retail sales, profit margins, returns, and global regional performance to support executive decision-making and revenue growth strategies using Power BI, DAX, and Data Modeling._
 
 ---
+## 📌 Table of Contents
+- <a href="#overview">Overview</a>
+- <a href="#business-problem">Business Problem</a>
+- <a href="#dataset">Dataset</a>
+- <a href="#tools--technologies">Tools & Technologies</a>
+- <a href="#project-structure">Project Structure</a>
+- <a href="#data-cleaning--preparation">Data Cleaning & Preparation</a>
+- <a href="#exploratory-data-analysis-eda">Exploratory Data Analysis (EDA)</a>
+- <a href="#research-questions--key-findings">Research Questions & Key Findings</a>
+- <a href="#dashboard">Dashboard</a>
+- <a href="#how-to-run-this-project">How to Run This Project</a>
+- <a href="#final-recommendations">Final Recommendations</a>
+- <a href="#author--contact">Author & Contact</a>
+
+--- 
 <h2><a class="anchor" id="overview"></a>Overview</h2>
 This project provides an end-to-end business intelligence solution for Maven Market, a multi-national retail grocery chain. By transforming raw transactional, product, customer, and regional data into interactive Power BI analytics, the business can monitor month-over-month (MoM) performance targets, assess return rates across product brands, and visualize geographical revenue growth across the USA, Mexico, and Canada.
 ---
@@ -62,39 +62,26 @@ This project addresses the following objectives:
 
 ---
 <h2><a class="anchor" id="project-structure"></a>Project Structure</h2>
+
+```
 maven-market-analysis/
-
 │
-
 ├── README.md
-
 ├── .gitignore
-
 ├── Maven Market Executive Summary.pdf
-
 │
-
 ├── data/                       # Raw and processed CSV data files
-
 │   ├── MavenMarket_Transactions.csv
-
 │   ├── MavenMarket_Products.csv
-
 │   ├── MavenMarket_Customers.csv
-
 │   └── MavenMarket_Returns.csv
-
 │
-
 ├── dashboard/                  # Power BI dashboard file
-
 │   └── maven_market_dashboard.pbix
-
 │
-
 └── images/                     # Screenshots and assets
-
-    └── dashboard.png
+└── dashboard.png
+```
 
 ---
 <h2><a class="anchor" id="data-cleaning--preparation"></a>Data Cleaning & Preparation</h2>
@@ -194,8 +181,8 @@ Data Analyst
 
 📧 Email: samyakbhagat03@gmail.com.com
 
-🔗 LinkedIn
+🔗 [LinkedIn](https://www.linkedin.com/in/samyakbhagat)
 
-🔗 github
+🔗 [github](https://www.github.com/samyakbhagat24
 
 
