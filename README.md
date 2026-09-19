@@ -87,11 +87,11 @@ maven-market-analysis/
 <h2><a class="anchor" id="data-cleaning--preparation"></a>Data Cleaning & Preparation</h2>
 
  - Data Transformation:
- - 
+   
    - Validated and formatted data types across date, currency, integer, and text fields.
-   - 
+     
    - Handled missing and zero values in transaction and return records.
-   - 
+     
  - Calculated Columns & DAX Measures:
    
    - Total Transactions = COUNT(Sales_Data[Quantity])
