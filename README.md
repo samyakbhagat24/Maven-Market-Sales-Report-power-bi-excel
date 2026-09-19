@@ -22,25 +22,42 @@ Analyzing retail sales, profit margins, returns, and global regional performance
 This project provides an end-to-end business intelligence solution for Maven Market, a multi-national retail grocery chain. By transforming raw transactional, product, customer, and regional data into interactive Power BI analytics, the business can monitor month-over-month (MoM) performance targets, assess return rates across product brands, and visualize geographical revenue growth across the USA, Mexico, and Canada.
 ---
 <h2><a class="anchor" id="business-problem"></a>Business Problem</h2>
-Retail chains require continuous tracking of high-level KPIs and granular product-level performance to optimize supply chain, pricing, and regional strategy. This project addresses the following objectives:
+
+Retail chains require continuous tracking of high-level KPIs and granular product-level performance to optimize supply chain, pricing, and regional strategy. 
+
+This project addresses the following objectives:
+
  - Tracking current month performance for Transactions, Profit, and Returns against dynamic goals.
+   
  - Identifying high-profit product brands vs. brands with high return rates.
+   
  - Mapping sales footprint and transaction distribution geographically across North America.
+   
  - Monitoring revenue trends over time to identify seasonal spikes or dips.
+   
  - Evaluating regional revenue contributions to allocate marketing and operational resources.
 
 ---
 <h2><a class="anchor" id="dataset"></a>Dataset</h2>
+
  - Sales Data: Transactional records containing quantity sold, store IDs, customer IDs, and product IDs.
+   
  - Returns Data: Product return logs tracking return quantities and dates.
+   
  - Product Hierarchy: Product brands, categories, wholesale costs, and retail prices.
+   
  - Customer & Stores Lookup: Demographics, store regions, and country locations (USA, Mexico, Canada).
+   
 
 ---
 <h2><a class="anchor" id="tools--technologies"></a>Tools & Technologies</h2>
+
  - Power BI Desktop: Interactive reporting, visual design, and dashboard deployment
+   
  - DAX (Data Analysis Expressions): Custom calculated columns and time-intelligence measures (KPI Targets, MoM Growth, Return Rates)
+   
  - Power Query (M Language): Data extraction, cleaning, type transformation, and merging
+   
  - Data Modeling: Star schema relational model connecting fact and dimension tables.
 
 ---
@@ -65,44 +82,73 @@ maven-market-analysis/
 
 ---
 <h2><a class="anchor" id="data-cleaning--preparation"></a>Data Cleaning & Preparation</h2>
+
  - Data Transformation:
+ - 
    - Validated and formatted data types across date, currency, integer, and text fields.
+   - 
    - Handled missing and zero values in transaction and return records.
+   - 
  - Calculated Columns & DAX Measures:
+   
    - Total Transactions = COUNT(Sales_Data[Quantity])
+     
    - Total Profit = SUMX(Sales_Data, Sales_Data[Quantity] * (Product[Retail_Price] - Product[Wholesale_Cost]))
+     
    - Profit Margin = DIVIDE([Total Profit], [Total Revenue])
+    
    - Return Rate = DIVIDE([Total Quantity Returned], [Total Quantity Sold])
+  
    - Current Month Targets: Calculated dynamic MoM goals for Transactions (17,339), Profit (67.87K), and Returns (482).
 
 ---
 <h2><a class="anchor" id="exploratory-data-analysis-eda"></a>Exploratory Data Analysis (EDA)</h2>
+
 KPI Highlights:
+
  - Current Month Transactions: 18,325 (Exceeded goal of 17,339 by +5.69%)
+   
  - Current Month Profit: $71,682 (Exceeded goal of $67.87K by +5.61%)
+   
  - Current Month Returns: 496 (Exceeded max threshold target of 482 by +2.9%)
+   
 Brand Performance Insights:
  - Top brands such as Hermanos (5,342 transactions, $21,753 profit) and Ebony (5,238 transactions, $20,354 profit) consistently achieve high sales volumes with solid margins (~58%–60%).
+   
  - Brands like Horatio (1.26%) and Nationeel (1.18%) showed higher-than-average return rates compared to the portfolio benchmark of 1.00%.
 
 ---
 <h2><a class="anchor" id="research-questions--key-findings"></a>Research Questions & Key Findings</h2>
+
  - Did Maven Market meet its current monthly operational targets?
+   
    - Yes, both transaction volume (+5.69%) and net profit (+5.61%) beat targets, though product return volume slightly missed the desired target (+2.9%).
+     
  - Which product brands generate the highest overall profit margin?
+   
    - Plato (63.55%) and BBB Best (62.12%) yield the highest profit margins among high-volume brands.
+     
  - What is the overall regional revenue distribution?
+   
    - The USA represents the primary share of revenue, followed by Mexico and Canada, as highlighted in the regional treemap and map visualization.
+     
  - How does revenue trend on a weekly basis?
+   
    - Weekly revenue consistently fluctuates around $10K–$20K, showing strong baseline revenue stability throughout the year with periodic promotional surges.
 
 ---
 <h2><a class="anchor" id="dashboard"></a>Dashboard</h2>
+
 The Power BI Executive Dashboard includes interactive visual features:
+
  - Executive KPIs Cards: Current Month Transactions, Profit, and Returns with target comparisons and dynamic status indicators.
+   
  - Product Brand Matrix: Detailed table showing Transactions, Total Profit, Profit Margin, and Return Rate per brand.
+   
  - Geographic Map & Country Filter: Bubble map showing store transaction density across North America with regional country slicers.
+   
  - Weekly Revenue Trending Column Chart: Time-series evaluation tracking revenue consistency from Jan 1998 to Oct 1998.
+  
  - Revenue vs. Target Gauge: Real-time progress meter against the $119.48K target (achieved $120K).
 
 ---
