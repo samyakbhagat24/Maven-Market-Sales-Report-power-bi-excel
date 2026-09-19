@@ -153,12 +153,12 @@ The Power BI Executive Dashboard includes interactive visual features:
  
  - Revenue vs. Target Gauge
 
-![Maven Market Sales & Performance Dashboard](images/dashboard.png)  
+ ![Maven Market Sales & Performance Dashboard](images/dashboard.png)  
 
 ---
 <h2><a class="anchor" id="how-to-run-this-project"></a>How to Run This Project</h2>
  - Clone the repository:
-   git clone https://github.com/yourusername/maven-market-analysis.git
+   git clone https://github.com/samyakbhagat/maven-market-analysis.git
 
  - Download/Inspect the Data:
    - Ensure the raw datasets are placed inside the /data/ folder.
