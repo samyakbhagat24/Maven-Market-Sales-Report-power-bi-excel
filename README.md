@@ -63,21 +63,37 @@ This project addresses the following objectives:
 ---
 <h2><a class="anchor" id="project-structure"></a>Project Structure</h2>
 maven-market-analysis/
+
 │
+
 ├── README.md
+
 ├── .gitignore
+
 ├── Maven Market Executive Summary.pdf
+
 │
+
 ├── data/                       # Raw and processed CSV data files
+
 │   ├── MavenMarket_Transactions.csv
+
 │   ├── MavenMarket_Products.csv
+
 │   ├── MavenMarket_Customers.csv
+
 │   └── MavenMarket_Returns.csv
+
 │
+
 ├── dashboard/                  # Power BI dashboard file
+
 │   └── maven_market_dashboard.pbix
+
 │
+
 └── images/                     # Screenshots and assets
+
     └── dashboard.png
 
 ---
