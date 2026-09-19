@@ -1,5 +1,7 @@
 #🛒 Maven Market Sales & Performance Dashboard
+
 Analyzing retail sales, profit margins, returns, and global regional performance to support executive decision-making and revenue growth strategies using Power BI, DAX, and Data Modeling.
+
 ##📌 Table of Contents
  - <a href="#overview">Overview</a>
  - <a href="#business-problem">Business Problem</a>
