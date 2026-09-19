@@ -119,8 +119,11 @@ The Power BI Executive Dashboard includes interactive visual features:
 
 ---
 <h2><a class="anchor" id="final-recommendations"></a>Final Recommendations</h2>
+
  - Quality Control on High-Return Brands: Investigate supply chain and quality standards for brands like Horatio and Nationeel to lower return rates under 1.00%.
+   
  - Expand Margin Leaders: Increase shelf placement and promotional focus for high-margin brands such as Plato and BBB Best.
+   
  - Regional Market Strategy: Continue expansion strategies in Mexico and Canada to match the mature market performance seen across USA store locations.
 
 ---
