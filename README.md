@@ -143,16 +143,17 @@ Brand Performance Insights:
 <h2><a class="anchor" id="dashboard"></a>Dashboard</h2>
 
 The Power BI Executive Dashboard includes interactive visual features:
+ - Executive KPI Cards
+   
+ - Product Brand Matrix
+   
+ - Geographic Map & Country Filter
+   
+ - Weekly Revenue Trending Column Chart
+ 
+ - Revenue vs. Target Gauge
 
- - Executive KPIs Cards: Current Month Transactions, Profit, and Returns with target comparisons and dynamic status indicators.
-   
- - Product Brand Matrix: Detailed table showing Transactions, Total Profit, Profit Margin, and Return Rate per brand.
-   
- - Geographic Map & Country Filter: Bubble map showing store transaction density across North America with regional country slicers.
-   
- - Weekly Revenue Trending Column Chart: Time-series evaluation tracking revenue consistency from Jan 1998 to Oct 1998.
-  
- - Revenue vs. Target Gauge: Real-time progress meter against the $119.48K target (achieved $120K).
+![Maven Market Sales & Performance Dashboard](images/dashboard.png)  
 
 ---
 <h2><a class="anchor" id="how-to-run-this-project"></a>How to Run This Project</h2>
