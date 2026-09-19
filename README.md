@@ -159,7 +159,7 @@ The Power BI Executive Dashboard includes interactive visual features:
 ---
 <h2><a class="anchor" id="how-to-run-this-project"></a>How to Run This Project</h2>
  - Clone the repository:
-   git clone https://github.com/samyakbhagat/maven-market-analysis.git
+   git clone https://github.com/samyakbhagat/maven-market-Sales & Performance-Dashboard
 
  - Download/Inspect the Data:
    - Ensure the raw datasets are placed inside the /data/ folder.
@@ -171,7 +171,7 @@ The Power BI Executive Dashboard includes interactive visual features:
 ---
 <h2><a class="anchor" id="final-recommendations"></a>Final Recommendations</h2>
 
- - Quality Control on High-Return Brands: Investigate supply chain and quality standards for brands like Horatio and Nationeel to lower return rates under 1.00%.
+ - Quality Control on High-Return Brands: Investigate supply chain and quality standards for brands like Horatio and Nationl to lower return rates under 1.00%.
    
  - Expand Margin Leaders: Increase shelf placement and promotional focus for high-margin brands such as Plato and BBB Best.
    
