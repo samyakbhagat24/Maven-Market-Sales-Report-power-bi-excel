@@ -2,6 +2,7 @@
 
 Analyzing retail sales, profit margins, returns, and global regional performance to support executive decision-making and revenue growth strategies using Power BI, DAX, and Data Modeling.
 
+---
 ##📌 Table of Contents
  - <a href="#overview">Overview</a>
  - <a href="#business-problem">Business Problem</a>
@@ -125,6 +126,11 @@ The Power BI Executive Dashboard includes interactive visual features:
 ---
 <h2><a class="anchor" id="author--contact"></a>Author & Contact</h2>
 Data Analyst
+
 📧 Email: samyakbhagat03@gmail.com.com
+
 🔗 LinkedIn
+
 🔗 github
+
+
