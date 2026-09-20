@@ -159,7 +159,6 @@ The Power BI Executive Dashboard includes interactive visual features:
 ---
 <h2><a class="anchor" id="how-to-run-this-project"></a>How to Run This Project</h2>
  1. Clone the repository:
- 
  ```bash
  
   git clone https://github.com/samyakbhagat24/Maven-Market-Sales-and-Performance-Dashboard
