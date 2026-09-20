@@ -188,6 +188,6 @@ Data Analyst
 
 🔗 [LinkedIn](https://www.linkedin.com/in/samyakbhagat)
 
-🔗 [github](https://www.github.com/samyakbhagat24
+🔗 [github](https://www.github.com/samyakbhagat24)
 
 
