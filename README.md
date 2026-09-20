@@ -154,7 +154,7 @@ The Power BI Executive Dashboard includes interactive visual features:
  
  - Revenue vs. Target Gauge
 
-  ![Maven Market Sales & Performance Dashboard](maven%20market%20dashboard.png) 
+  ![Maven Market Sales & Performance Dashboard](Maven-Market-Sales-and-Performance-Dashboard/blob/main/Screenshot (366).png) 
  
 ---
 <h2><a class="anchor" id="how-to-run-this-project"></a>How to Run This Project</h2>
